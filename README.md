@@ -1,2 +1,1 @@
-# TopQuiz
 Android Training

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controller.MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_greeting_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        android:text="Bienvenue dans TopQuiz. Quel est votre prénom ?"/>
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Entrez votre prénom..."/>
+
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's play !"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/activity_main_ranking_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show 5 best players &#9819;"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
